@@ -94,7 +94,7 @@ add this to xstartup file:
 
 xrdb $HOME/.Xresources
 xsetroot -solid grey
-autocutsel  -fork
+autocutsel -fork
 #x-terminal-emulator -geometry 80x24+10+10 -ls -title "$VNCDESKTOP Desktop" &
 #x-window-manager &
 # Fix to make GNOME work
