@@ -101,7 +101,7 @@ autocutsel  -fork
 export XKL_XMODMAP_DISABLE=1
 /etc/X11/Xsession
 ```
-```
+
 
 ## Step 10
 connect via VNC. Example: 192.168.1.154:1
