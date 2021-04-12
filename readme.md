@@ -75,6 +75,36 @@ sudo chmod +x ./vnc
 ```
 
 ## Step 10
+enable copy paste over vnc
+
+```sh
+sudo apt-get install autocutsel
+```
+
+```sh
+cd .vnc/
+nano xstartup
+```
+
+add this to xstartup file:
+
+```sh
+```sh
+#!/bin/sh
+
+xrdb $HOME/.Xresources
+xsetroot -solid grey
+autocutsel  -fork
+#x-terminal-emulator -geometry 80x24+10+10 -ls -title "$VNCDESKTOP Desktop" &
+#x-window-manager &
+# Fix to make GNOME work
+export XKL_XMODMAP_DISABLE=1
+/etc/X11/Xsession
+```
+```
+
+## Step 10
 connect via VNC. Example: 192.168.1.154:1
+
 
 
