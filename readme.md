@@ -103,7 +103,7 @@ export XKL_XMODMAP_DISABLE=1
 ```
 
 
-## Step 10
+## Step 11
 connect via VNC. Example: 192.168.1.154:1
 
 
