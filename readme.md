@@ -89,7 +89,6 @@ nano xstartup
 add this to xstartup file:
 
 ```sh
-```sh
 #!/bin/sh
 
 xrdb $HOME/.Xresources
