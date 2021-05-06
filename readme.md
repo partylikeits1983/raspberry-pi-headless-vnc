@@ -101,9 +101,8 @@ export XKL_XMODMAP_DISABLE=1
 /etc/X11/Xsession
 ```
 
-
 ## Step 11
 connect via VNC. Example: 192.168.1.154:1
 
-
-
+Install Python3.9
+https://community.home-assistant.io/t/python-3-9-install-on-raspberry-pi-os/241558
