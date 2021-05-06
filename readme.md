@@ -104,7 +104,11 @@ export XKL_XMODMAP_DISABLE=1
 ## Step 11
 connect via VNC. Example: 192.168.1.154:1
 
+Useful Links:
+
 Install Python3.9
 https://community.home-assistant.io/t/python-3-9-install-on-raspberry-pi-os/241558
 
 https://installvirtual.com/install-python-3-7-on-raspberry-pi/
+
+https://superuser.com/questions/1496683/upgrade-pip-to-newest-version-on-ubuntu-16-04
