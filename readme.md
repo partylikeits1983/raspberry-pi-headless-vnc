@@ -106,3 +106,5 @@ connect via VNC. Example: 192.168.1.154:1
 
 Install Python3.9
 https://community.home-assistant.io/t/python-3-9-install-on-raspberry-pi-os/241558
+
+https://installvirtual.com/install-python-3-7-on-raspberry-pi/
