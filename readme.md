@@ -112,3 +112,10 @@ https://community.home-assistant.io/t/python-3-9-install-on-raspberry-pi-os/2415
 https://installvirtual.com/install-python-3-7-on-raspberry-pi/
 
 https://superuser.com/questions/1496683/upgrade-pip-to-newest-version-on-ubuntu-16-04
+
+
+Install cmake
+https://linuxhint.com/install-cmake-on-debian-10/
+
+Install dlib
+https://gist.github.com/ageitgey/629d75c1baac34dfa5ca2a1928a7aeaf
