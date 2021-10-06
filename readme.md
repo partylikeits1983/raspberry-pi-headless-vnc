@@ -6,14 +6,27 @@ Download latest raspbian version and flash SD card.
 
 ## Step 2
 enable SSH
+
+MacOS:
 ```sh
 touch /Volumes/boot/ssh
+```
+
+Ubuntu:
+
+```sh
+touch /media/ubuntu/boot/ssh
 ```
 
 ## Step 3
 add Wifi configuration
 ```sh
 nano /Volumes/boot/wpa_supplicant.conf
+```
+
+ubuntu:
+```sh
+nano /media/ubuntu/boot/wpa_supplicant.conf
 ```
 
 insert this:
