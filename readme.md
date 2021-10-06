@@ -24,7 +24,7 @@ add Wifi configuration
 nano /Volumes/boot/wpa_supplicant.conf
 ```
 
-ubuntu:
+Ubuntu:
 ```sh
 nano /media/ubuntu/boot/wpa_supplicant.conf
 ```
@@ -40,6 +40,12 @@ network={
 	ssid="[SSID]"
 	psk="[password]"
 }
+```
+
+*if you forgot the PW of the wifi network you are on...*
+
+```sh
+cd /etc/NetworkManager/system-connections/
 ```
 
 
