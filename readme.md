@@ -18,6 +18,7 @@ Ubuntu:
 touch /media/ubuntu/boot/ssh
 ```
 
+
 ## Step 3
 add Wifi configuration
 ```sh
@@ -28,6 +29,13 @@ Ubuntu:
 ```sh
 nano /media/ubuntu/boot/wpa_supplicant.conf
 ```
+
+Or if you have already flashed the sd but are connecting to a new network:
+
+```sh
+nano /media/ubuntu/rootfs/etc/wpa_supplicant
+```
+
 
 insert this:
 
