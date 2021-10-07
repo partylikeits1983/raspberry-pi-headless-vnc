@@ -33,7 +33,7 @@ nano /media/ubuntu/boot/wpa_supplicant.conf
 Or if you have already flashed the sd but are connecting to a new network:
 
 ```sh
-nano /media/ubuntu/rootfs/etc/wpa_supplicant
+nano /media/ubuntu/rootfs/etc/wpa_supplicant/wpa_supplicant.conf
 ```
 
 
